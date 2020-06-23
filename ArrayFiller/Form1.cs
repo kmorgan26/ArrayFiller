@@ -39,12 +39,12 @@ namespace ArrayFiller
         {
             try
             {
-                //=======Set initial values from Textboxes============
+                //=======Set initial values from Textboxes  ============
                 int iterations = Convert.ToInt32(txtIterations.Text);
                 min = Convert.ToInt32(txtMin.Text);
                 max = Convert.ToInt32(txtMax.Text) + 1;
 
-                //===The Range is how many numbers it will have to "fill"=========
+                //===The Range is how many numbers it will have to "fill"  =========
                 range = max - min;
 
                 //------ for/next loop that will fill the array as many times as iterations 
